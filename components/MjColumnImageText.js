@@ -20,8 +20,9 @@ const defaultMJMLDefinition = {
     'font-size': '10px',
     'image-padding': 0,
     'image-src': null,
-    'image-width': null,
+    'image-width': 'auto',
     'column-width': '50%',
+    'text': null
   },
 }
 

@@ -1,21 +1,124 @@
 <mjml>
+  <mj-head>
+    <mj-title>We are UTSA - Message from the President - April 2017</mj-title>
+      <!-- Component to create CSS styles that will be inlined - https://mjml.io/documentation/#mjml-style -->
+      <mj-style>
+        h1 {
+          text-transform: uppercase;
+          font-size: 18pt;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 700;
+          padding:0;
+        }
+        h2 {
+          text-transform: uppercase;
+          font-size: 1.15rem;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 400;
+          padding:0;
+        }
+        .signature {
+          font-size: 1.15rem;
+          font-weight:700;
+          color: #0c2340;
+        }
+        hr {
+          padding:0;
+        }
+        p {
+          font-size: 1.0rem;
+          padding-bottom: 15px;
+        }
+        .title {
+          font-style: italic;
+          font-size: 0.75rem;
+          color: #000;
+        }
+        .footer {
+          font-size: 0.75rem;
+          font-weight: 200;
+        }
+      </mj-style>
+    <mj-attributes>
+      <mj-all padding="0" font-family="Helvetica"  />
+      <!-- Component to create MJML styles - https://mjml.io/documentation/#mjml-attributes -->
+    </mj-attributes>
+  </mj-head>
   <mj-body>
-      <mj-container>
-        <mj-section>
-          <mj-column>
-            <mj-image src="https://mjml.io/assets/img/logo-small.png" width="100%" />
-          </mj-column>
-          <mj-column>
-            <mj-text color="blue" font-size="10px">
-                my super nice component
+    <mj-container background-color="#FFF">
+      <mj-section padding-bottom="10">
+        <mj-column width="100%">
+          <mj-image src="https://giving.utsa.edu/image/email---presidents-office/bannerseal.jpg" width="auto" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" >
+          <mj-text color="black" padding-left="10px" padding-right="10px">
+            <h1 class="heading">
+              MESSAGE FROM THE PRESIDENT
+            </h1>
+            <hr/>
+            <h2>April 2017</h2>
+          </mj-text>
+          <mj-text padding-left="10px" padding-right="10px" padding-top="10px" font-family="Georgia" padding-bottom="25px">
+            <p>
+              Dear Friends,
+            </p>
+            <p>
+              As one of UTSA's closest supporters, you have probably felt a sense
+              of uncertainty over the past few weeks with the transition in university
+              leadership. I understand how challenging this time has been, especially
+              for a university known for its stability and focus.
+            </p>
+            <p>
+              At moments like this, it is important to remember that UTSA's mission
+              and vision transcends any one of us, individually. Its culture of
+              success is the result of many years of hard work and investment by
+              the community, by faculty and staff, and by exceptional students.
+            </p>
+            <p>
+              Sincerely,
+            </p>
+            <p class="signature">
+              Dr. Pedro Reyes
+              <br/>
+              <span class="title">
+              President Ad Interim, The University of Texas at San Antonio
+              </span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="40%"/>
+        <mj-group width="20%">
+        <mj-column >
+          <mj-image padding-right="5px" padding-left="5px" align="center" href="https://www.facebook.com/utsa" src="https://giving.utsa.edu/image/email-message-president-august-2015/facebook.png" />
+        </mj-column>
+        <mj-column >
+          <mj-image padding-right="5px" padding-left="5px" align="center" href="https://twitter.com/utsa" src="https://giving.utsa.edu/image/email-message-president-august-2015/twitter.png" />
+        </mj-column>
+        <mj-column >
+          <mj-image padding-right="5px" padding-left="5px" align="center" href="https://www.instagram.com/utsa/" src="https://giving.utsa.edu/image/email-message-president-august-2015/instagram.png" />
+        </mj-column>
+        <mj-column >
+          <mj-image padding-right="5px" padding-left="5px" align="center" href="https://www.linkedin.com/school/7153?pathWildcard=7153" src="https://giving.utsa.edu/image/email-message-president-august-2015/linkedin.jpg" />
+        </mj-column>
+        </mj-group>
+        <mj-column width="40%"/>
+      </mj-section>
+      <mj-section>
+          <mj-column width="90%">
+            <mj-text font-family="Helvetica" align="center">
+              <p text-align="center" class="footer">&copy;2017 The University of Texas at San Antonio | One UTSA Circle | San Antonio, Texas 78249
+                <br/>
+                <a href="https://giving.utsa.edu/page.aspx?pid=633&srctid=1&erid=25385674&trid=caba5e76-7ce7-45ef-9360-5d6382b009e0">Update Profile/Email Preferences</a> |
+                <a href="https://giving.utsa.edu/page.aspx?pid=632&srctid=1&erid=25385674&trid=caba5e76-7ce7-45ef-9360-5d6382b009e0">Privacy Policy</a>
+              </p>
             </mj-text>
           </mj-column>
-        </mj-section>
-
-        <!-- uncomment if you want to test the already created component
-        <mj-column-image-text image-src="https://mjml.io/assets/img/logo-small.png" text="my super nice component" />
-        -->
-
+      </mj-section>
     </mj-container>
   </mj-body>
 </mjml>
